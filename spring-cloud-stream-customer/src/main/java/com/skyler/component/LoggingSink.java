@@ -8,7 +8,7 @@ import org.springframework.cloud.stream.messaging.Sink;
 public class LoggingSink {
 
     @StreamListener(Sink.INPUT)
-    public void log(Object message) {
-        System.out.println("receive :"+message);
+    public void log(User user) {
+        System.out.println("receive user:"+user);
     }
 }

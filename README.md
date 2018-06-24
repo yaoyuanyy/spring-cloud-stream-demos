@@ -1,13 +1,14 @@
-#### tutorial-1
+#### tutorial-2
 
 ```
 生产者发送消息
 
-- @InboundChannelAdapter(Source.OUTPUT) 默认每隔1s发送一次
+- 发送json字符串
 
 ```
 
 ```
 消费者接受消息
+- User 对象接收消息
 
 ```
